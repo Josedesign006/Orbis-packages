@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download Orbis</title>
+  <meta name="description" content="Download Orbis for macOS and Windows." />
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --card: #16161d;
+      --border: #26262f;
+      --text: #f4f4f6;
+      --muted: #9a9aa6;
+      --accent: #6c5cff;
+      --accent-text: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 20px;
+    }
+    .wrap { width: 100%; max-width: 640px; }
+    .brand { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+    .logo {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #b06cff);
+      display: grid; place-items: center; font-weight: 700; font-size: 22px;
+    }
+    h1 { font-size: 30px; margin: 0; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin: 6px 0 32px; font-size: 15px; }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 10px;
+    }
+    a.dl {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; padding: 16px 18px; border-radius: 12px;
+      text-decoration: none; color: var(--text); transition: background .15s ease;
+    }
+    a.dl:hover { background: #1f1f29; }
+    a.dl + a.dl { border-top: 1px solid var(--border); }
+    .meta { display: flex; align-items: center; gap: 14px; }
+    .os { font-size: 24px; width: 28px; text-align: center; }
+    .name { font-weight: 600; }
+    .desc { color: var(--muted); font-size: 13px; margin-top: 2px; }
+    .btn {
+      background: var(--accent); color: var(--accent-text);
+      padding: 8px 16px; border-radius: 9px; font-weight: 600; font-size: 14px;
+      white-space: nowrap;
+    }
+    .foot { color: var(--muted); font-size: 13px; margin-top: 22px; line-height: 1.6; text-align: center; }
+    .foot a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">O</div>
+      <div>
+        <h1>Download Orbis</h1>
+      </div>
+    </div>
+    <p class="sub">Choose your platform. Always the latest release.</p>
+
+    <div class="card">
+      <a class="dl" href="https://github.com/Josedesign006/Orbis-packages/releases/latest/download/Orbis-macOS-AppleSilicon-arm64.dmg">
+        <div class="meta">
+          <div class="os">🍎</div>
+          <div>
+            <div class="name">macOS — Apple Silicon</div>
+            <div class="desc">M1 / M2 / M3 / M4 · .dmg</div>
+          </div>
+        </div>
+        <div class="btn">Download</div>
+      </a>
+      <a class="dl" href="https://github.com/Josedesign006/Orbis-packages/releases/latest/download/Orbis-macOS-Intel-x64.dmg">
+        <div class="meta">
+          <div class="os">🍎</div>
+          <div>
+            <div class="name">macOS — Intel</div>
+            <div class="desc">Intel-based Macs · .dmg</div>
+          </div>
+        </div>
+        <div class="btn">Download</div>
+      </a>
+      <a class="dl" href="https://github.com/Josedesign006/Orbis-packages/releases/latest/download/Orbis-Windows-Setup-x64.exe">
+        <div class="meta">
+          <div class="os">🪟</div>
+          <div>
+            <div class="name">Windows — x64</div>
+            <div class="desc">Windows 10 / 11 · .exe installer</div>
+          </div>
+        </div>
+        <div class="btn">Download</div>
+      </a>
+    </div>
+
+    <p class="foot">
+      Not sure which Mac you have? Apple menu →  About This Mac.<br />
+      All versions: <a href="https://github.com/Josedesign006/Orbis-packages/releases">Releases</a>
+      · Verify: <a href="https://github.com/Josedesign006/Orbis-packages/blob/main/SHA256SUMS.txt">SHA256SUMS</a>
+    </p>
+  </div>
+</body>
+</html>

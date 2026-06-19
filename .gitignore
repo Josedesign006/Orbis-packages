@@ -1,0 +1,4 @@
+# Local artifacts kept out of git; distributed via Releases
+*.dmg
+*.exe
+*.zip
