@@ -16,10 +16,8 @@ You can also browse every version on the [Releases page](https://github.com/Jose
 
 ## Install notes
 
-These builds are not yet code-signed/notarized, so the OS will warn on first launch:
-
-- **macOS** — pick the build that matches your chip (Apple Silicon vs Intel). Open the `.dmg`, drag **Orbis** to Applications. On first launch, right-click the app → **Open**, then confirm. (If macOS still blocks it: System Settings → Privacy & Security → "Open Anyway".)
-- **Windows** — run the `.exe`. SmartScreen may appear → **More info** → **Run anyway**. The installer installs per-user (no admin required).
+- **macOS** — the macOS builds are **code-signed and notarized by Apple**, so they install without security warnings. Pick the build that matches your chip (Apple Silicon vs Intel), open the `.dmg`, and drag **Orbis** to Applications.
+- **Windows** — the Windows installer is not yet code-signed, so SmartScreen may appear → **More info** → **Run anyway**. The installer installs per-user (no admin required).
 
 ## Verify your download (optional)
 
