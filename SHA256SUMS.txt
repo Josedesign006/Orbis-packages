@@ -1,3 +1,3 @@
-0ea7708f8a0bd935e145a9dbde0dcef34724e0649063b806101200eb35fabdde  Orbis-macOS-AppleSilicon-arm64.dmg
-4b0d0dd23a9f8acb30f59be506df158c75d484c33cb18a20100c692836104d8c  Orbis-macOS-Intel-x64.dmg
-d3b9fe4e445fb1c947cd03f32772feb83a55a9f3878fc5be86f7454b51b67d92  Orbis-Windows-Setup-x64.exe
+6571fd38bbbcb4c93c85fba520a55ecf27c8b1a2d06a853682e87747d6dd97aa  Orbis-macOS-AppleSilicon-arm64.dmg
+caad8ae171545b69efc83cb0e740070e2c1bcc38c33282e11d53252c54c144d5  Orbis-macOS-Intel-x64.dmg
+1fb877494cdeb9387f847218eb672906cb581f6c9cd5d415c8dbbc4c8487969a  Orbis-Windows-Setup-x64.exe
