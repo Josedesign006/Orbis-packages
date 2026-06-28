@@ -2,15 +2,15 @@
 
 Official download packages for **Orbis**.
 
-## Download (latest: v0.6.2)
+## Download (latest: 0.6.3)
 
 | Platform | Download |
 |---|---|
-| 🍎 macOS — Apple Silicon (M1/M2/M3/M4) | [Orbis-macOS-AppleSilicon-arm64.dmg](https://github.com/Josedesign006/Orbis-packages/releases/download/v0.6.2/Orbis-macOS-AppleSilicon-arm64.dmg) |
-| 🍎 macOS — Intel | [Orbis-macOS-Intel-x64.dmg](https://github.com/Josedesign006/Orbis-packages/releases/download/v0.6.2/Orbis-macOS-Intel-x64.dmg) |
-| 🪟 Windows — x64 | [Orbis-Windows-Setup-x64.exe](https://github.com/Josedesign006/Orbis-packages/releases/download/v0.6.2/Orbis-Windows-Setup-x64.exe) |
+| 🍎 macOS — Apple Silicon (M1/M2/M3/M4) | [Orbis-macOS-AppleSilicon-arm64.dmg](https://github.com/Josedesign006/Orbis-packages/releases/download/v0.6.3/Orbis-macOS-AppleSilicon-arm64.dmg) |
+| 🍎 macOS — Intel | [Orbis-macOS-Intel-x64.dmg](https://github.com/Josedesign006/Orbis-packages/releases/download/v0.6.3/Orbis-macOS-Intel-x64.dmg) |
+| 🪟 Windows — x64 | [Orbis-Windows-Setup-x64.exe](https://github.com/Josedesign006/Orbis-packages/releases/download/v0.6.3/Orbis-Windows-Setup-x64.exe) |
 
-> These links point to a **specific version** (updated on every release). Version-pinned URLs avoid the browser-cache problem that `…/releases/latest/download/…` has — that URL never changes between releases, so browsers keep serving the old cached installer.
+> These links point to a **specific version** (updated on every release). Version-pinned URLs avoid the browser-cache problem that `…/releases/download/v0.6.3/…` has — that URL never changes between releases, so browsers keep serving the old cached installer.
 
 You can also browse every version on the [Releases page](https://github.com/Josedesign006/Orbis-packages/releases).
 
